@@ -16,7 +16,6 @@ Disyuncion(OR): Relaciona dos proposiciones, el valor de verdad de la conjuncion
 5. X >= 18
 6. Z/Y/X >= Fecha_nac."""
         print(Definicion,conectoresLogicos,ejercicios)
-
     def BIOS():
         concepto="""Concepto: Rutinas de software en un chip o circuito integrado.
 primer programa al encender una PC"""
@@ -53,10 +52,16 @@ class RAM():
         nombre="Random access memory"
         definicion="Memoria a coto plazo, almacena datos de acceso rapido, la capacidad es fundamental para el rendimiento del SO."
         clasificacionSegunTam="DIMM (Dual inline memory module). SODIMM (Small outline dual inline memory module)"
+        clasificacionSegunMod=" Mod SIMM, mod DIMM"
+        ModDIMM="DDR-SDRAM (DRAM sincrona de velocidad de datos dobles). SDRAM (RAM dinamica sincronica) que esta disponible en dos config, con paridad y sin paridad"
+        DDRSDRAM="""DDR:significa Double Data Rate. SDR (Single data rate) 
+DDR-SDRAM: la tecnologia de memoria mas avanzada disponible actualmente.
+Bus De Reloj: cada cuanto tiempo envian los datos"""
+        print(nombre,definicion,clasificacionSegunTam,clasificacionSegunMod,ModDIMM,DDRSDRAM)
 class Binario():
     def funcion():
         definicion="Sistema de numeracion, utilizando solo 2 digitos (0 y 1) == Dos niveles de voltaje."
-
+        print(definicion)
 
 clase=clase2
 clase.logicaProposicional()
