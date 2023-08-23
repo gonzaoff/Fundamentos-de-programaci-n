@@ -31,12 +31,32 @@ si pierde energia, todos los datos en el CMOS se perderán"""
     def ROM():
         Nombre="Read Only Memory."
         Funcion="Funcion: Memoria no volatil, la informacion es susceptible de alteracion y cambios, esto garantiza la disponibilidad."
+        print(Nombre,Funcion)
     def PROM():
             nombre="Nombre: Programmable read only memory."
             Desarrollo="""Desarrollo: Desarrollo militar de mediados de los 50. para grabar datos con sobrecarga de tencion, diodos intactos '1'"""
+            print(nombre,Desarrollo)
     def EPROM():
         nombre="Erasable Programmable Read-Only Memory."
         desarrollo="Son regrabables, asi que la informacion es modificable y remobible. Luz ultravioleta para grabar. Se encuentran e 286 y 386"
-    
+        print(nombre,desarrollo)
+    def FlashBIOS():
+        Nombre="Memoria Flash"
+        print(Nombre)
+    def PNP():
+        Nombre="Plug and Play."
+        Desarrollo="Reconoce automaticamente cualquier dispositivo conectado a la computadora y se le asigna los recursos necesarios"
+        print(Nombre,Desarrollo)
+
+class RAM():
+    def clase():
+        nombre="Random access memory"
+        definicion="Memoria a coto plazo, almacena datos de acceso rapido, la capacidad es fundamental para el rendimiento del SO."
+        clasificacionSegunTam="DIMM (Dual inline memory module). SODIMM (Small outline dual inline memory module)"
+class Binario():
+    def funcion():
+        definicion="Sistema de numeracion, utilizando solo 2 digitos (0 y 1) == Dos niveles de voltaje."
+
+
 clase=clase2
 clase.logicaProposicional()
