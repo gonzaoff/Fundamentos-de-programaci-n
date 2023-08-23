@@ -57,7 +57,12 @@ class RAM():
         DDRSDRAM="""DDR:significa Double Data Rate. SDR (Single data rate) 
 DDR-SDRAM: la tecnologia de memoria mas avanzada disponible actualmente.
 Bus De Reloj: cada cuanto tiempo envian los datos"""
-        print(nombre,definicion,clasificacionSegunTam,clasificacionSegunMod,ModDIMM,DDRSDRAM)
+        BusesYconexiones="""Bus:Canal de comunicacion
+seriales: Va transmitiendo un numero atras de otr a travez de un solo bus
+paralelo: Utiliza varias pistas, que envian varios datos a la vez, tambien en serie"""
+        BusProcesadorMemoria="Controlado por el controlador de memoria integrado en el procesador, es el mas escencial y el mas complejo dado que con cada nuevo tipo de memoria ram, se requiere rediseñar toda la estructura del controlador."
+        
+        print(nombre,definicion,clasificacionSegunTam,clasificacionSegunMod,ModDIMM,DDRSDRAM,BusesYconexiones,BusProcesadorMemoria)
 class Binario():
     def funcion():
         definicion="Sistema de numeracion, utilizando solo 2 digitos (0 y 1) == Dos niveles de voltaje."
