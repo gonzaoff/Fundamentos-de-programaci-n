@@ -72,7 +72,5 @@ class memoria(Binario):
 
 
 
-
-
 clase=memoria()
 clase.logicaProposicional()
