@@ -12,7 +12,7 @@ Disyuncion(OR): Relaciona dos proposiciones, el valor de verdad de la conjuncion
 """
         tablaDeVerdad="""Establece para todas las posibles combinaciones que valor va a tener la expresion."""
         ejercicios= """1. X > Y
-2. X < Y < Z
+2. X < Y < Z = X < Y AND Y < Z
 3. X > 100 OR X+Y > Z
 4. X < 0 AND Z - 325 > 0
 5. X >= 18
