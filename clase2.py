@@ -16,7 +16,7 @@ Disyuncion(OR): Relaciona dos proposiciones, el valor de verdad de la conjuncion
 3. X > 100 OR X+Y > Z
 4. X < 0 AND Z - 325 > 0
 5. X >= 18
-6. Z/Y/X >= Fecha_nac."""
+6. Z/Y/X <= Fecha_nac = X<A OR (X=A AND Y<B) OR (X=A AND Y=B AND Z<C)"""
         print(Definicion,conectoresLogicos,tablaDeVerdad,ejercicios)
 
 class Binario(clase2):
