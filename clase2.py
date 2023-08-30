@@ -10,6 +10,7 @@ Negacion(Not): Cambia el valor de verdad de la proposicion. Ej: Si p es VERDADER
 Conjuncion(AND): Relaciona dos proposiciones, el valor de verdad de la conjuncion es VERDADERO, solo si el valor de las dos proposiciones es VERDADERO
 Disyuncion(OR): Relaciona dos proposiciones, el valor de verdad de la conjuncion es FALSO, solo si el valor de las dos proposiciones es FALSO
 """
+        tablaDeVerdad="""Establece para todas las posibles combinaciones que valor va a tener la expresion."""
         ejercicios= """1. X > Y
 2. X < Y < Z
 3. X > 100 OR X+Y > Z
