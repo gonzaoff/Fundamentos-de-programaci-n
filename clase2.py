@@ -65,12 +65,13 @@ class memoria(Binario):
     DDR-SDRAM: la tecnologia de memoria mas avanzada disponible actualmente.
     Bus De Reloj: cada cuanto tiempo envian los datos\n"""
             BusesYconexiones="""Bus:Canal de comunicacion
-    seriales: Va transmitiendo un numero atras de otr a travez de un solo bus
+    seriales: Va transmitiendo un numero atras de otra a travez de un solo bus
     paralelo: Utiliza varias pistas, que envian varios datos a la vez, tambien en serie\n"""
-            BusProcesadorMemoria="Controlado por el controlador de memoria integrado en el procesador, es el mas escencial y el mas complejo dado que con cada nuevo tipo de memoria ram, se requiere rediseñar toda la estructura del controlador.\n"
+            BusProcesadorMemoria="""Controlado por el controlador de memoria integrado en el procesador, 
+es el mas escencial y el mas complejo dado que con cada nuevo tipo de memoria ram,
+se requiere rediseñar toda la estructura del controlador.\n"""
             
             print(nombre,definicion,clasificacionSegunTam,clasificacionSegunMod,ModDIMM,DDRSDRAM,BusesYconexiones,BusProcesadorMemoria)
-
 
 
 clase=memoria()
