@@ -17,7 +17,7 @@ Disyuncion(OR): Relaciona dos proposiciones, el valor de verdad de la conjuncion
 4. X < 0 AND Z - 325 > 0
 5. X >= 18
 6. Z/Y/X >= Fecha_nac."""
-        print(Definicion,conectoresLogicos,ejercicios)
+        print(Definicion,conectoresLogicos,tablaDeVerdad,ejercicios)
 
 class Binario(clase2):
     def funcion(self):
