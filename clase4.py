@@ -36,4 +36,13 @@ def procesador():
     setInstrucciones="""los procesadores incluyen instrucciones que facilitan la ejecucion de determinados codigos, x86,x64,MMX,3d Now, SSE, etc...
     """
 
-
+def chipset():
+    definicion="""Conjunto de chips o un cicuito integrado, con funciones relacionadas con la gestion de distintos dispositivos.
+    el chipset siempre se diseño en base a la arquitectura del procesador central.
+    es el control de comunicaciones y el o los chips que se encargan de controlar el trafico de datos en la placa base.
+    Encontramos dos chipsets en la plaza, el puente norte y el puente sur.
+    la placa base como el bus principal del sistema, es el eje que es capaz de interconectar elementos de diferentes fabricantes.
+    desde su aparicion, su funcion fue clara, dismuniur la carga de trabajo del procesador principal, derivandolo en otros circuitos que a su vez se conectaban con el."""
+    northBridge="""Sus funciones se encuentran actualmentee en la CPU."""
+    caché="""es una memoria ultrarrapida que emplea el procesador para tener alcance directo a ciertos datos imprescindibles que sera utilizadas en las siguientes operaciones:
+    Cache L1: es la memoria mas pequeña y mas rapida, tiene 256kb, alcaza """
