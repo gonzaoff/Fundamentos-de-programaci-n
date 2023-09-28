@@ -15,19 +15,16 @@ La arquitectura Von Neumann se basa en tres propiedades:
 2) El contenido de la memoria es accesible por posición, independientemente de que se acceda a datos o a instrucciones.
 3) La ejecución de las instrucciones se produce de manera secuencial: después de ejecutar una instrucción se ejecuta la instrucción siguiente que hay en la memoria principal, pero se puede romper la secuencia de ejecución utilizando instrucciones de ruptura de secuencia."""
         arquitecturaHardvard = """Resuelve el cuello de botella de Von Neumann con ciclos de reloj,
-<<<<<<< HEAD
         lo que conlleva un mayor costo"""
         print(arquitecturaHardvard,arcVonNeumann)
     def logicaProposicional():
         Definicion="""Definicion: Establece proposiciones logicas que poseen un valor Verdadero o Falso (true or false). Nos devuelve un razonamiento logico a un razonamiento binario"""
         conectoresLogicos = """Conectores Logicos
-=======
         lo que conlleva un mayor costo\n"""
         print(arquitecturaHardvard)
     def logicaProposicional(self):
         Definicion="""Definicion: Establece proposiciones logicas que poseen un valor Verdadero o Falso (true or false). Nos devuelve un razonamiento logico a un razonamiento binario\n"""
         conectoresLogicos = """Conectores Logicos ->
->>>>>>> 02ec2d4fa0a5c9908211c2241b033054f1228856
 Negacion(Not): Cambia el valor de verdad de la proposicion. Ej: Si p es VERDADERO, NOT p es FALSO
 Conjuncion(AND): Relaciona dos proposiciones, el valor de verdad de la conjuncion es VERDADERO, solo si el valor de las dos proposiciones es VERDADERO
 Disyuncion(OR): Relaciona dos proposiciones, el valor de verdad de la conjuncion es FALSO, solo si el valor de las dos proposiciones es FALSO
@@ -46,7 +43,6 @@ class Binario(clase2):
         definicion="Sistema de numeracion, utilizando solo 2 digitos (0 y 1) == Dos niveles de voltaje.\n"
         print(definicion)
 
-<<<<<<< HEAD
 class memoria():
     def BIOS():
         concepto="""Concepto: Rutinas de software en un chip o circuito integrado.
@@ -93,7 +89,6 @@ paralelo: Utiliza varias pistas, que envian varios datos a la vez, tambien en se
         BusProcesadorMemoria="Controlado por el controlador de memoria integrado en el procesador, es el mas escencial y el mas complejo dado que con cada nuevo tipo de memoria ram, se requiere rediseñar toda la estructura del controlador."
         
         print(nombre,definicion,clasificacionSegunTam,clasificacionSegunMod,ModDIMM,DDRSDRAM,BusesYconexiones,BusProcesadorMemoria)
-=======
 class memoria(Binario):
         def BIOS(self):
             concepto="""Concepto: Rutinas de software en un chip o circuito integrado.
@@ -142,7 +137,6 @@ es el mas escencial y el mas complejo dado que con cada nuevo tipo de memoria ra
 se requiere rediseñar toda la estructura del controlador.\n"""
             
             print(nombre,definicion,clasificacionSegunTam,clasificacionSegunMod,ModDIMM,DDRSDRAM,BusesYconexiones,BusProcesadorMemoria)
->>>>>>> 02ec2d4fa0a5c9908211c2241b033054f1228856
 
 
 clase=memoria()
